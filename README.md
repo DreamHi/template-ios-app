@@ -5,6 +5,7 @@ iOS app开发模版
 ## 用户指南
 
 - [目录结构]（#目录结构）
+- [工具库]()
 
 
 ## 目录结构
@@ -42,16 +43,16 @@ Classes/
 
 ```
 
-|グループ	| 説明 |
+|文件夹	| 说明 |
 |---------|------------------------|
-|Protocols|プロトコルを配置する。プロトコル拡張の活用は推奨。|
-|Enumerations|列挙型を配置する。その型に属する一般的な分岐処理にはEnumに処理させる（SwiftのEnumを活用する）。|
-|Extensions|既存クラスの拡張を記述する。ファイル名は<対象+目的>.swift。|
+|Protocols|协议|
+|Enumerations|枚举类型|
+|Extensions|扩张既存类。文件名格式<対象+目的>.swift。|
 |Entities|本地数据库保存。|
 |Models|网络请求数据，restAPI等|
 |ViewControllers|初期化view， 监听事件|
 |ViewModels|数据验证，从model获取数据|
-|Views|	UIView派生クラスを配置する。|
+|Views|	UIView的子类|
 |Helpers|常量，宏，工具类，网络，数据库,共通等|
 |Resource|图片，视频，声音等|
 |Vendors|第三方的类库|
